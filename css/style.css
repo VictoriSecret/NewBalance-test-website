@@ -1,0 +1,342 @@
+@font-face {
+    font-family: Gotham;
+    src: url(../fonts/Gotham-Bold.otf);
+}
+@font-face {
+    font-family: Proxima;
+    src: url(../fonts/proximanova-regular.otf);
+}
+body {
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.menu__inner {
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-transform: uppercase;
+    color: #999;
+    font-size: small;
+}
+
+.nav li a {
+    text-transform: uppercase;
+    color: #999;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+.nav li a:hover {
+    background-color: rgb(40, 40, 40);
+    color: white;
+    border-radius: 5px;
+    
+}
+
+
+
+
+
+
+.sneakers {
+    padding-left: 300px;
+    width: 1250px;
+    height: 740px;
+}
+
+.data {
+    height: 300px;
+    background-color: white;
+}
+.data_inner {
+    height: 300px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.item {
+    text-align: center;
+}
+.number {
+    color: rgb(31, 31, 31);
+    font-size: 50px;
+}
+.text {
+    color: rgb(94, 94, 94);
+    margin-bottom: 20px;
+}
+.line {
+    width: 30px;
+    height: 3px;
+    background-color: rgb(94, 94, 94);
+    margin: 0 auto;
+}
+
+
+
+
+
+.container2 {
+    width: 1300;
+    margin: 0 auto;
+}
+
+.photos {
+    height: 500px;
+    background-color: rgb(40, 40, 40);
+}
+
+.photo_inner {
+    height: 500px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.photos1 {
+    height: 460px;
+    width: 325px;
+}
+
+
+
+
+.dop_infa {
+    height: 1000px;
+    background-color: white;
+}
+.infa_inner {
+    height: 1000px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.infa_item {
+    margin: 0 auto;
+    text-align: left;
+    align-items: center;
+}
+.infa_item2 {
+    text-align: left;
+    margin-top: 400px;
+
+}
+.heading {
+    font-size: 35px;
+    font-weight: bold;
+}
+.information {
+    font-size: 15px;
+    padding-top: 40px;
+    
+}
+.item_photos1 {
+    padding-top: 100px;
+}
+.photos2 {
+    height: 300px;
+    width: 500px;
+}
+
+
+
+
+
+.container3 {
+    width: 900px;
+    margin: 0 auto;
+}
+.team {
+    background-color: rgb(165, 165, 165);
+}
+.team_inner {
+    text-align: center;
+}
+.team_title {
+    font-family: Gotham;
+    font-size: 30px;
+    color: rgb(31, 31, 31);
+    font-weight: bold;
+    line-height: 50px;
+    margin: 0;
+    padding-top: 40px;
+}
+.teamline {
+    width: 184px;
+    height: 3px;
+    background-color: rgb(31, 31, 31);
+    margin: 0 auto;
+}
+.team_text {
+    font-family: Proxima;
+    padding-top: 20px;
+    font-size: 16px;
+    line-height: 25px;
+    color: rgb(40, 40, 40);
+    width: 540px;
+    margin: 0 auto;
+
+}
+.cards {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 80px;
+    padding-top: 55px;
+    
+}
+.item_team {
+    text-align: center;
+    background-color: white;
+    box-shadow: 0px 2px 4px 0 rgb(94, 94, 94);
+    padding: 20px 35px;
+    min-width: 210px;
+}
+.item_img {
+    margin-bottom: 10px;
+}
+.item_title {
+    font-family: Gotham;
+    font-size: 16px;
+    color: rgb(31, 31, 31);
+    line-height: 16px;
+    margin: 0 0 10px 0;
+}
+.item_text {
+    font-family: Georgia;
+    font-size: 12px;
+    font-style: italic;
+    color: rgb(31, 31, 31);
+    line-height: 12px;
+    margin: 0 0 10px 0;
+}
+.team_icons {
+}
+.fa {
+}
+.fa-facebook {
+    font-size: 20px;
+    color: rgb(40, 40, 40);
+    margin: 0 5px;
+}
+.fa-twitter {
+    font-size: 20px;
+    color: rgb(40, 40, 40);
+    margin: 0 5px;
+}
+
+
+
+
+.last {
+}
+.last_inner {
+    
+}
+.last_title {
+    text-align: center;
+    font-size: 30px;
+    font-family: Gotham;
+    line-height: 15px;
+    color: black;
+    max-width: 300px;
+    margin: 0 auto;
+    padding-top: 120px;
+    font-weight: normal;
+}
+.last_logo {
+    margin: 0 auto;
+    padding-left: 720px;
+}
+.last_logo img {
+    width: 60px;
+    height: 30px;
+}
+.last_photos {
+    margin-top: 100spx;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 40px;
+}
+.last_line {
+    display: flex;
+    margin: 0 auto;
+}
+.last_photos img {
+    width: 400px;
+    height: 400px;
+}
+.last_text {
+    display: flex;
+    margin: 0 auto;
+    font-size: 25px;
+    font-family: Gotham;
+    padding-top: 15px;
+
+}
+
+
+
+
+
+.container2 {
+    width: 1300;
+    margin: 0 auto;
+
+}
+.static_inner {
+    padding-top: 120px;
+    text-align: center;
+    height: 700px;
+}
+h1 {
+    max-width: 800px;
+    margin: 100px auto 30px;
+    line-height: 45px;
+    font-weight: normal;
+    color: rgb(31, 31, 31);
+}
+p {
+    max-width: 650px;
+    margin: 0 auto 60px;
+    line-height: 25px;
+    color: rgb(31, 31, 31);
+}
+.icon-box {
+    margin-bottom: 60px;
+}
+i.fa-comments {
+    color: rgb(165, 165, 165);
+    font-size: 80px;
+    margin: 0 50px;
+}
+i.fa-shopping-basket {
+    color: rgb(165, 165, 165);
+    font-size: 80px;
+    margin: 0 50px;
+}
+i.fa-globe {
+    color: rgb(165, 165, 165);
+    font-size: 80px;
+    margin: 0 50px;
+}
+
+
+
+
